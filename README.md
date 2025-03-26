@@ -85,14 +85,11 @@ Watch or star this repository to get notified about the release.
 If you found this repository useful, please consider citing:
 
 ```bibtex
-@misc{tang2024reasonbeforeretrieveonestagereflectivechainofthoughts,
-      title={Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval}, 
-      author={Yuanmin Tang and Xiaoting Qin and Jue Zhang and Jing Yu and Gaopeng Gou and Gang Xiong and Qingwei Ling and Saravan Rajmohan and Dongmei Zhang and Qi Wu},
-      year={2024},
-      eprint={2412.11077},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.11077}, 
+@article{tang2024reason,
+  title={Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval},
+  author={Tang, Yuanmin and Qin, Xiaoting and Zhang, Jue and Yu, Jing and Gou, Gaopeng and Xiong, Gang and Ling, Qingwei and Rajmohan, Saravan and Zhang, Dongmei and Wu, Qi},
+  journal={arXiv preprint arXiv:2412.11077},
+  year={2024}
 }
 ```
 
