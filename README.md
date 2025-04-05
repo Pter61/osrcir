@@ -1,6 +1,6 @@
 <div align="center">
 	
-# Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval (CVPR 2025)
+# Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval (CVPR 2025 Highlight) 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2412.11077-b31b1b.svg)](https://arxiv.org/abs/2412.11077)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -60,6 +60,7 @@ Achieves **1.80-6.44%** performance gains over existing training-free methods ac
 | Component              | Status                          | Timeline     |
 |------------------------|---------------------------------|--------------|
 | Paper                  | ✅ Accepted (CVPR 2025)         | February 2025  |
+| Paper                  | ✅ Selected as the Highlight    | April 2025  |
 | Example Code           | ⏳ Final Testing               | June 2025    |
 | Full Release           | 🔜 Post-Camera-Ready           | July 2025    |
 
