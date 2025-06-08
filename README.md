@@ -14,7 +14,7 @@
 </div>
 
 
-![OSrCIR](OSrCIR.jpg)
+![OSrCIR](OSrCIR.png)
 
 <div align="justify">
 
