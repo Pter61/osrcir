@@ -184,7 +184,7 @@ Watch or star this repository to get notified about the release.
 
 📧 **Primary Contact**: [tangyuanmin@iie.ac.cn](mailto:tangyuanmin@iie.ac.cn)  
 💻 **Code Repository**: [OSrCIR Project](https://github.com/Pter61/osrcir)  
-📜 **Academic Profile**: [Google Scholar](https://scholar.google.com/citations?user=gPohD_kAAAAJ)
+📜 **Academic Profile**: [Homepage](https://pter61.github.io/)
 
 **Preferred Collaboration Types**:
 - 🎓 **Research Students**: Supervision of extensions/improvements
