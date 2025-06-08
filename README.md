@@ -153,7 +153,7 @@ Setup the GeneCIS benchmark following the instructions in the [**official reposi
 
 Exemplary runs the target image description generator across all four benchmark datasets.
 
-For example, to generate the target image description for the Fashion-IQ Dress subset, simply run:
+For example, to generate the target image description for the CIRR, simply run:
 
 ```sh
 datapath=./datasets/cir/data/cirr
