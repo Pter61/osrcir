@@ -65,8 +65,9 @@ Achieves **1.80-6.44%** performance gains over existing training-free methods ac
 
 
 ## Demo for Target Image Generation
-This repository provides a demo version of the OSrCIR framework to generate target image descriptions using Reflective Chain-of-Thought (CoT) reasoning and vision-language models (VLMs).
-⚠️ Note: This is a demo version and may contain bugs. The full and stable release will be made public soon.
+This repository currently provides a demo implementation of the OSrCIR system for generating target image descriptions across several major composed image retrieval (CIR) benchmarks.
+
+⚠️ Note: This demo version may still contain minor bugs and uses a simplified prompt. Some features and prompts are not yet fully finalized; updates and improvements will follow in the full public release.
 
 ## Setting Everything Up
 
