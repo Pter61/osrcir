@@ -158,7 +158,7 @@ For example, to generate the target image description for the CIRR, simply run:
 
 ```sh
 datapath=./datasets/cir/data/cirr
-python src/demo.py --dataset cirr --split test  --dataset-path $datapath --preload img_features captions mods --gpt_cir_prompt prompts.mllm_structural_predictor_prompt_CoT --clip ViT-bigG-14 --openai_engine gpt-4o-20240806
+python src/demo.py --dataset cirr --split test  --dataset-path $datapath --gpt_cir_prompt prompts.mllm_structural_predictor_prompt_CoT --clip ViT-bigG-14 --openai_engine gpt-4o-20240806
 ```
 
 This call to `src/demo.py` includes the majority of relevant handles:
@@ -167,7 +167,6 @@ This call to `src/demo.py` includes the majority of relevant handles:
 --dataset [name_of_dataset] #Specific dataset to use, s.a. cirr, circo, fashioniq_dress, fashioniq_shirt (...)
 --split [val_or_test] #Compute either validation metrics, or generate a test submission file where needed (cirr, circo).
 --dataset-path [path_to_dataset_folder]
---preload [list_of_things_to_save_and_preload_if_available] #One can pass img_features, captions and mods (modified captions). Depending on which is passed, the correspondingly generated img_features, BLIP-captions and LLM-modified captions will be stored. If the script is called again using the same parameters, the saved data is loaded instead - which is much quicker. This is particularly useful when switching different models (such as the llm for different modified captions, or the retrieval model via img_features).
 --gpt_cir_prompt [prompts.name_of_prompt_str] #Reflective CoT prompt to use.
 --openai_engine [name_of_gpt_model] #MLLM model to use for OSrCIR.
 --clip [name_of_openclip_model] #OpenCLIP model to use for crossmodal retrieval.
